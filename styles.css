@@ -357,3 +357,78 @@ footer {
     object-fit: cover;
     border: 3px solid #ddd;
 }
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: #bbb;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer nav a:hover {
+    color: #1e90ff;
+}
+
+/* Social Media Section */
+.social-media {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media a i {
+    font-size: 20px;
+}
+
+.social-media a:hover {
+    color: #1e90ff;
+}
+
+.social-media {
+    text-align: center;
+    
+    padding: 30px;
+    border-radius: 8px;
+    color: #fff;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.social-media h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin: 10px 0;
+}
+
